@@ -16,4 +16,3 @@ In der Regel werden Texte mit einem Textverarbeitungs-Paket (OpenOffice, LibreOf
 - Hinweise zu weiteren LaTeX-Kursen und -Materialien
 
 Mehr zum Thema LaTeX wird im LaTeX - Workshop (siehe eigenes Repository) vermittelt. Desweiteren gibt es hier auch ein LaTeX-Tutorial mit einem umfangreichen LaTeX-Dokument, das sehr viele Themen (verschiedene Verzeichnisse, Bibliographie, Bilder, Tabellen, Zitieren, mathematische Formeln, etc.) beinhaltet.  
-
