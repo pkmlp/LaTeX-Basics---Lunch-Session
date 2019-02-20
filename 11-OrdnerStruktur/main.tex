@@ -1,20 +1,26 @@
 \documentclass[12pt, a4paper]{article}
 
-\usepackage[utf8]{inputenc}   % für deutsche Umlaute
+\usepackage[utf8]{inputenc}   % für deutsche Umlaute (input)
 \usepackage[ngerman]{babel}   % für neue deutsche Rechtschreibung 
-\usepackage[T1]{fontenc}      % für Umlaute im pdf-Dokument
+\usepackage[T1]{fontenc}      % für deutsche Umlaute (output)
 
 \usepackage{amsmath}          % für mathematische Formeln
 \usepackage{amssymb}          % für mathematische Symbole
 
 \usepackage{graphicx}         % für Bilder
 
+\usepackage{csquotes}                           % für Literaturverzeichnis und Zitierungen
+\usepackage[style=numeric]{biblatex}            % für Literatur-Verweise im Stil [1]
+%\usepackage[style=alphabetic]{biblatex}         % für Literatur-Verweise im Stil [Kot11]
+\addbibresource{./Verzeichnisse/Literatur.bib}  % Datei mit Literatur/Quellen
+
+
 \setlength{\parindent}{0em}   % Einzug (Einrückung) der ersten Zeile im Abschnitt
 \setlength{\parskip}{0.75em}  % Abstand zwischen den einzelnen Abschnitten
 
-\title{\LaTeX-Intro}          % Titel der Arbeit
-\author{Peter Kessler}        % Autor der Arbeit
-\date{März 2019}              % Datum der Arbeit
+\title{\LaTeX-Intro}          % Titel der Arbeit, wird für \maketitle benötigt
+\author{Peter Kessler}        % Autor der Arbeit, wird für \maketitle benötigt
+\date{März 2019}              % Datum der Arbeit, wird für \maketitle benötigt
 
 
 \begin{document}
@@ -25,17 +31,9 @@
 \tableofcontents
 
 
-
 \pagebreak 
 \section{Herkunft}
 \input{./Inhalte/Herkunft.tex}
-
-\begin{figure}[h!]
-\centering
-  \includegraphics[width=0.5\textwidth]{./Bilder/overleaf.png}
-  \caption{Overleaf - \LaTeX in der Cloud}
-\end{figure}
-
 
 
 \pagebreak
@@ -46,7 +44,6 @@
 
 \subsection{WYSIWYAF}
 \input{./Inhalte/WYSIWYAF.tex}
-
 
 
 \pagebreak
@@ -62,5 +59,14 @@
 \subsection{Ausgerichtete Formeln}
 \input{./Inhalte/MathAusgerichtet.tex}
 
-\end{document}
 
+\pagebreak
+\section{Zitieren und Literaturverzeichnis}
+\input{./Inhalte/Zitieren.tex}
+
+
+\pagebreak
+\addcontentsline{toc}{section}{Literatur-/Quellenverzeichnis}    % Eintrag in ToC erstellen
+\printbibliography[title={Literatur-/Quellenverzeichnis}]        % Literaturverzeichnis erstellen
+
+\end{document}
