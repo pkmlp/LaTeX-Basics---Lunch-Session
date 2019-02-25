@@ -20,7 +20,7 @@ Mehr zum Thema LaTeX wird im LaTeX - Workshop (siehe eigenes Repository) vermitt
 
 # LaTeX-Tutorials
 
-Nachfolgend einige Links zu LaTeX-Tutrials die ich empfehlen kann
+Nachfolgend einige Links zu LaTeX-Tutorials die ich empfehlen kann.
 
 
 ## Tutorials in English
