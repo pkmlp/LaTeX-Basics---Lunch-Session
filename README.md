@@ -34,7 +34,7 @@ Nachfolgend einige Links zu LaTeX-Tutrials die ich empfehlen kann
 
 
 
-## TTutorials in Deutsch:
+## Tutorials in Deutsch:
 	• https://latex.tugraz.at/latex/tutorial 
 	• https://www.dpg-physik.de/dpg/gliederung/junge/rg/wuerzburg/Archiv/WS%202011-12/LaTeX/Kursmaterial.html
 	• https://mo.mathematik.uni-stuttgart.de/kurse/kurs44/seite19.html
@@ -43,7 +43,7 @@ Nachfolgend einige Links zu LaTeX-Tutrials die ich empfehlen kann
 
 
 
-## TSehr gute LaTeX-Mathe-Tutorials:
+## Sehr gute LaTeX-Mathe-Tutorials:
 	• https://www.youtube.com/watch?v=SoDv0qhyysQ&list=PL1D4EAB31D3EBC449
 	• https://www.youtube.com/channel/UCC-3dzj6dfbWwGzQzhkUS5A
 	• https://www.youtube.com/watch?v=W_yPJsF1X18&list=PLDD406480D35CE390
@@ -52,19 +52,19 @@ Nachfolgend einige Links zu LaTeX-Tutrials die ich empfehlen kann
 
 
 
-## TEditoren:
+## Editoren:
 	• http://www.xm1math.net/texmaker/ 
 	• http://texstudio.sourceforge.net/
 	• https://sourceforge.net/projects/texworks.mirror/
 
 
 
-## TGenerator:
+## Generator:
 	• https://www.namsu.de/latex/Latex_Generator/Anleitung.html
 
 
 
-## TTemplates:
+## Templates:
 	• https://www.latextemplates.com/
 
 
