@@ -9,9 +9,13 @@ In der Regel werden Texte mit einem Textverarbeitungs-Paket (OpenOffice, LibreOf
 ## Inhalte der LaTeX-Basics - Lunch Session
 
 - Unterschiede von LaTeX zu Word
-- Was wird benötigt um LaTeX-Dokumente zu erstellen 
+- Was wird benötigt um LaTeX-Dokumente zu erstellen
 - Datei- / Ordner-Struktur für LaTeX Dokumente 
 - Ein erstes, kurzes LaTeX Dokument mit Overleaf 
+  - Text erfassen in LaTeX
+  - Mathematisch Formeln
+  - Bilder/Grafiken
+  - Quellenangaben und Literaturverzeichnis
 - Hinweise zur Installation und Konfiguration einer LaTeX-Umgebung auf dem eigenen Laptop
 - Hinweise zu weiteren LaTeX-Kursen und -Materialien
 
