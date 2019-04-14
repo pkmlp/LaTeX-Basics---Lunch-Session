@@ -13,7 +13,7 @@ In der Regel werden Texte mit einem Textverarbeitungs-Paket (OpenOffice, LibreOf
 - Datei- / Ordner-Struktur für LaTeX Dokumente 
 - Ein erstes, kurzes LaTeX Dokument mit Overleaf 
   - Text erfassen in LaTeX
-  - Mathematisch Formeln
+  - Mathematische Formeln
   - Bilder/Grafiken
   - Quellenangaben und Literaturverzeichnis
 - Hinweise zur Installation und Konfiguration einer LaTeX-Umgebung auf dem eigenen Laptop
