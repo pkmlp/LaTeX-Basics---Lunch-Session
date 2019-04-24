@@ -21,6 +21,9 @@ In der Regel werden Texte mit einem Textverarbeitungs-Paket (OpenOffice, LibreOf
 
 Mehr zum Thema LaTeX wird im LaTeX - Workshop (siehe eigenes Repository) vermittelt. Desweiteren gibt es hier auch ein LaTeX-Tutorial mit einem umfangreichen LaTeX-Dokument, das sehr viele Themen (verschiedene Verzeichnisse, Bibliographie, Bilder, Tabellen, Zitieren, mathematische Formeln, etc.) beinhaltet.  
 
+## Zielpublikum der LaTeX-Basics - Lunch Session
+
+Die LaTeX-Basics - Lunch Session richtet sich an Studierende die noch keine Erfahrung mit LaTeX haben. Studierende die bereits ein Dokument mit LaTeX erstellt haben, werden nichts wesentliches neu erfahren. Diesen empfehlen wir den Besuch des LaTeX-Basics - Workshop, der neu auch ohne Absolvierung der Lunch Session besucht werden kann.
 
 # LaTeX-Tutorials
 
