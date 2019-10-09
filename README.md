@@ -20,7 +20,7 @@ In der Regel werden Texte mit einem Textverarbeitungs-Paket (OpenOffice, LibreOf
 - Hinweise zu weiteren LaTeX-Kursen und -Materialien
 
 Mehr zum Thema LaTeX wird im LaTeX - Workshop (siehe eigenes Repository) vermittelt. Desweiteren gibt es hier auch ein LaTeX-Tutorial mit einem umfangreichen LaTeX-Dokument, das sehr viele Themen (verschiedene Verzeichnisse, Bibliographie, Bilder, Tabellen, Zitieren, mathematische Formeln, etc.) beinhaltet.  
-
+v
 ## Zielpublikum der LaTeX-Basics - Lunch Session
 
 Die LaTeX-Basics - Lunch Session richtet sich an Studierende die noch keine Erfahrung mit LaTeX haben. Studierende die bereits ein Dokument mit LaTeX erstellt haben, werden nichts wesentliches Neues erfahren. Diesen empfehlen wir den Besuch des LaTeX-Basics - Workshop, der neu auch ohne Absolvierung der Lunch Session besucht werden kann.
@@ -38,7 +38,6 @@ Nachfolgend einige Links zu LaTeX-Tutorials die ich empfehlen kann.
 	• https://www.youtube.com/watch?v=WnIYTFTsWiU
 	• https://www.youtube.com/watch?v=xYzg-gfx6dQ&t=267s 
 	
-
 
 
 ## Tutorials in Deutsch:
@@ -78,4 +77,12 @@ Nachfolgend einige Links zu LaTeX-Tutorials die ich empfehlen kann.
 
 ## Excel2LaTeX
 	• https://ctan.org/tex-archive/support/excel2latex/
+
+
+
+## Center of Math
+	• https://www.centerofmath.org/
+
+	So You Want To Learn LaTeX
+	• https://www.youtube.com/watch?v=xYzg-gfx6dQ&list=PLgKTLlHQn950rpO2U_y1gun1LVUlKCHa6 
 
