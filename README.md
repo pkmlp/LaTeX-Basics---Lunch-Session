@@ -31,6 +31,7 @@ Nachfolgend einige Links zu LaTeX-Tutorials die ich empfehlen kann.
 
 
 ## Tutorials in English
+	• https://www.youtube.com/watch?v=Jp0lPj2-DQA
 	• https://www.youtube.com/watch?v=NwnYHoNtfJ0&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T 
 	• https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D   
 	• https://www.youtube.com/watch?v=VhmkLrOjLsw 
