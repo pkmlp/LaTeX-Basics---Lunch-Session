@@ -1,4 +1,6 @@
+
 \documentclass[ 12pt, a4paper, parskip=full]{scrartcl}
+
 % Die Gestaltung der Absätze ist im deutschen Sprachraum   
 % anders als im englischen Sprachraum. Die Anpassung an
 % den deutschen Sprachraum erreichen Sie mit: parskip=full.
@@ -9,7 +11,7 @@
 \usepackage[T1]{fontenc}      % für Umlaute im pdf-Dokument
 
 % Angaben für die automatische Titelseite
-\title{\LaTeX-Intro}          % Titel der Arbeit
+\title{\LaTeX-Basics}         % Titel der Arbeit
 \author{Peter Kessler}        % Autor der Arbeit
 \date{\today}                 % Datum der Arbeit
 
@@ -17,8 +19,17 @@
 \usepackage{amsmath}          % für mathematische Formeln
 \usepackage{amssymb}          % für mathematische Symbole
 
+% Packages für Inhaltsverzeichnis mit Links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,              % wenn Links farbig markiert werden sollen
+    citecolor=black,         % keine farbige Unterscheidung bei Querverweisen
+    linkcolor=black,         % keine farbige Unterscheidung der ToC Zeilen
+    urlcolor=black           % keine farbige Unterscheidung bei URL-Links
+}
+
 % Packages für Bilder und Grafiken
-\usepackage{graphicx}         % für Bilder
+\usepackage{graphicx}         % für Bilder und Grafiken
 
 % Package für Literaturverzeichnis und Zitierungen
 \usepackage{csquotes}
@@ -39,7 +50,7 @@
 % Titelseite erstellen mit Unterdrückung der Seitenzahl
 % auf der Titelseite
 \maketitle
-\thispagestyle{empty}         
+\thispagestyle{empty}   % keine Seitenzahl auf der Titelseite
 
 % Inhaltsverzeichnis auf eigener Seite
 \pagebreak
@@ -49,6 +60,8 @@
 \pagebreak 
 \section{Herkunft}
 \input{./Inhalte/Herkunft.tex}
+
+
 
 % Kapitel auf neuer Seite
 \pagebreak
