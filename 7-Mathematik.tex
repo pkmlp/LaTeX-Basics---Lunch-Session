@@ -1,4 +1,7 @@
+
 \documentclass[ 12pt, a4paper, parskip=full]{scrartcl}
+%\documentclass[ 12pt, a4paper, parskip=full, numbers=endperiod]{scrartcl}
+
 % Die Gestaltung der Absätze ist im deutschen Sprachraum   
 % anders als im englischen Sprachraum. Die Anpassung an
 % den deutschen Sprachraum erreichen Sie mit: parskip=full.
@@ -9,19 +12,28 @@
 \usepackage[T1]{fontenc}      % für Umlaute im pdf-Dokument
 
 % Angaben für die automatische Titelseite
-\title{\LaTeX-Intro}          % Titel der Arbeit
-\author{Peter Kessler}        % Autor der Arbeit
-\date{Oktober 2019}           % Datum der Arbeit
+\title{\LaTeX-Basics}        % Titel der Arbeit
+\author{Peter Kessler}       % Autor der Arbeit
+\date{\today}                % Datum der Arbeit
 
 % Packages für Mathe
-\usepackage{amsmath}          % für mathematische Formeln
-\usepackage{amssymb}          % für mathematische Symbole
+\usepackage{amsmath}         % für mathematische Formeln
+\usepackage{amssymb}         % für mathematische Symbole
 
+% Packages für Inhaltsverzeichnis mit Links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,              % wenn Links farbig markiert werden sollen
+    citecolor=black,         % keine farbige Unterscheidung bei Querverweisen
+    linkcolor=black,         % keine farbige Unterscheidung der ToC Zeilen
+    urlcolor=black           % keine farbige Unterscheidung bei URL-Links
+}
 
 \begin{document}
 
 % Titelseite erstellen
 \maketitle
+\thispagestyle{empty}
 
 % Inhaltsverzeichnis auf eigener Seite
 \pagebreak
@@ -65,9 +77,9 @@ Hypotenuse, dann gilt:
 
 % Mathematische Formel abgesetzt
 \begin{displaymath}
-  a^2+b^2=c^2 
+  a^2+b^2=c^2  
 \end{displaymath}
- 
+
 Somit gilt für die Hypothenuse: 
 
 % Mathematische Formel abgesetzt
@@ -75,6 +87,15 @@ Somit gilt für die Hypothenuse:
   c=\sqrt{a^2+b^2} 
 \end{displaymath}
 
+% Unterkapitel
+\subsection{Mehrere abgesetzte Formeln}
+Mehrere Formeln abgesetzt;
+
+% Mathematische Formel abgesetzt
+\begin{align}
+  a^2+b^2=c^2 \nonumber \\    % Zeilenumbruch funktioniert nur in align Umgebung
+  a^2=c^2-b^2 \nonumber       % align Umgebung, noch ohne Ausrichtung
+\end{align}
 
 \subsection{Ausgerichtete Formeln}
 Da gibt es zwei Formeln, die jedes Kind kennt: 
@@ -82,11 +103,16 @@ Da gibt es zwei Formeln, die jedes Kind kennt:
 % Mathematische Formel abgesetzt und ausgerichtet,
 % mit Label zur späteren Referenzierung
 \begin{align}
-  a^2 + b^2 &= c^2     \label{pythagoras}  \\  
-  e &= m c^2           \label{einstein}  
+  a^2 + b^2 &= c^2     \label{eq:pythagoras}  \\  
+  e &= m c^2           \label{eq:einstein}  
 \end{align}
 
 % Referenzierung auf Formeln mit Label
-Wobei \eqref{pythagoras} Pythagoras und \eqref{einstein} Albert Einstein zugeschrieben wird.
+Wobei \eqref{eq:pythagoras} Pythagoras und \eqref{eq:einstein} Albert Einstein zugeschrieben wird.
+
+
+\begin{align}
+\left(x+a\right)^n=\sum_{k=0}^{n}{\binom{n}{k}x^ka^{n-k}} \nonumber
+\end{align}
 
 \end{document}
