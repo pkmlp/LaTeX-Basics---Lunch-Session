@@ -33,6 +33,7 @@ Nachfolgend einige Links zu LaTeX-Tutorials die ich empfehlen kann.
 ## Tutorials in English
 	• https://www.youtube.com/watch?v=y8y_KIs9JLs (LaTeX mit Overleaf)
 	• https://www.youtube.com/watch?v=Jp0lPj2-DQA (LaTeX mit Overleaf)
+	• https://www.youtube.com/watch?v=g0YdIs4oJm8&list=PLY91jl6VVD7wnyOlAgPRe-i9ov4_ZqHV8&index=1
 	• https://www.youtube.com/watch?v=NwnYHoNtfJ0&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T 
 	• https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D   
 	• https://www.youtube.com/watch?v=VhmkLrOjLsw 
@@ -69,6 +70,7 @@ Nachfolgend einige Links zu LaTeX-Tutorials die ich empfehlen kann.
 
 ## Generator:
 	• https://www.namsu.de/latex/Latex_Generator/Anleitung.html
+ 	• https://math-on-quora.surge.sh/
 
 
 
